@@ -1,0 +1,97 @@
+#Zprávy, které se ukážou v konzoli
+
+plugin-load: "Plugin SurvivalGamesPE uspesne nahrany!"
+plugin-enable: "Plugin SurvivalGamesPE bol uspesne povolen "
+plugin-disable: "Plugin SurvivalGamesPE bol uspesne odnacten!"
+# %NAME sú mená všetkých arén, ktoré budú načítané
+arenas-loaded: "Areny %NAME boly uspesne nahrany."
+
+#Messagges slovak by Ondraczsk (omlouvám se kdyby někde byly chyby!Kdyžtak to předělejte)
+#Od Tohto riadku je možné používať farby vo formáte & 1, §1 (odporúčame & 1)
+
+prefix: "&6[&4&lSG&6]"
+
+# Všetky preklady nemusí byť 100% dobre!
+
+#Pro připojování do hry můžete použít:
+# %PLAYER = nick připojeného hráče, %NAME = jméno arény, %WORLD = svět hry
+# %COUNT = počet hráčů ve aréně %MAXCOUNT = maximální počet hráčů v aréně
+
+game_connect: "&b%PLAYER &ase pripojil do areny &e[&a%COUNT&7/&c%MAXCOUNT&e]"
+game_leave: "&b%PLAYER &4se odpojil z areny &e[&a%COUNT&7/&c%MAXCOUNT&e]"
+join_to_arena: "&aPripojil ses do areny &b%NAME. &1Arena zacina za &b%TIME"
+leave_from_arena: "&cOdpojil ses z areny &b%NAME."
+
+#Informační zprávy do hry.
+#Zde lze použít pouze %TIME = čas před startem arény, %NAME, %WORLD
+player_vote: "&b %PLAYER volil aby arena uz startovala."
+players_remaining: "&2 Hracu zbyva v arene: &e[%activeplayers] !"
+player_win: "&e %KILLER &czabil &e %PLAYER &a a vyhral v &3arene %NAME &bVelka gratulace!"
+spectate: "&aTed jsi sledujici! Pouzij /sg leave pro opusteni areny."
+no_permission: "&cNemas prava na pripojeni do areny %NAME"
+restock_chest: "&5Bedny byly doplneny!"
+countdown: "&b Arena: %NAME %WORLD startuje za &2%TIME"
+started: "&aArena %NAME zacala." 
+gameend: "&bArena %NAME skoncila!"
+gamewaiting: "&bArena %NAME ceka na hrace. Pripojte se"
+gamestarting: "&bArena %NAME zacina za %TIME sekund!"
+gamestarted: "&bArena %NAME zacala!"
+gamedisabled: "&bArena %NAME vypnuta"
+gameenabled: "&bArena %NAME zapnuta"
+
+ #Chybné upozornění. (ERRORS)
+game_full: "&cArena %NAME je plna!"
+already_ingame: "&cUz jsi v nejake arene!"
+already_running: "&cArena %NAME momentalne bezi."
+no_permission: "&cNemas pravo na tuto akci."
+game_disabled: "&cArena %NAME je vypnuta!"
+not_enought_players: "&cNeni dostatek hracu pro startovani areny."
+game_doesnt_exist: "&cArena %NAME neexistuje!"
+not_ingame: "&cMusis byt v arene pro tuto akci!"
+
+#Zprávy při smrti v aréně.
+DEFAULT: "&b%PLAYER &cumrel!"
+BLOCK_EXPLOSION: "&b%PLAYER &6 byl zabit od vybuchu!"
+ENTITY_EXPLOSION: "&b%PLAYER &6 byl zabit vybuchem!"
+DROWNING: "&b%PLAYER &6se utopil!"
+FALL: "&b%PLAYER &6spadl z velke vysky a zemrel!"
+FIRE: "&b%PLAYER &6shorel!"
+FIRE_TICK: "&b%PLAYER &6uhorel k smrti!"
+LAVA: "&b%PLAYER &6shorel v lave!"
+LIGHTING: "&b%PLAYER &6byl zabit bleskem!"
+MAGIC: "&b%PLAYER &6byl zabit magii"
+POISON: "&b%PLAYER &6byl otraven a zemrel."
+PROJECTILE: "&b%PLAYER &6byl zastrelen hracem %KILLER"
+STARVATION: "&b%PLAYER &6umrel na vyhladoveni!"
+SUICIDE: "&b%PLAYER &cbyl zabit administratorem"
+VOID: "&b%PLAYER &6spadl do voidu"
+PLAYER: "&b%PLAYER &cbyl zabit hracem  &e%KILLER &bpomoci %ITEM!"
+
+#Tyto zprávy jsou  killstreak double kill atd..
+level1: "&b%PLAYER &6 Double Kill!"
+level2: "&b%PLAYER &e Multi Kill!"
+level3: "&b%PLAYER &5&l Ultra Kill!"
+level4: "&b%PLAYER &4&l Unbelievable Kill!"
+level5: "&b&l%PLAYER &2&l je  legendarni killer!"
+
+#Tyto zprávy se zobrazují v /help ( (cislo) Nechávám anglicky)
+createarena: "Vytvori novou arenu"
+delarena: "Smaze arenu"
+disable: "Deaktivuje arenu <id>"
+enable: "Aktivuje arenu <id>"
+flag: "Modifies an arena-specific setting"
+forcestart: "Forces the game to start"
+join: "Pripojit se do lobby"
+leave: "Opustit hru"
+leavequeue: "Leave the queue for any queued games"
+lisarenas: "Seznam vsech funkcnich aren"
+listplayers: "Seznam vsech hracu v te arene, ktere hrajes"
+resetspawns: "Resetuje spawny Areny <id>"
+setlobbyspawn: "Nastavit lobby spawnpoint"
+addlobbywall: "Add a lobby stats wall for Arena <id>"
+setspawn: "Nastavit spawn te areny, kde se nachazis"
+setstatswall: "Sets the stats wall"
+spectate: "Divat se za arenou, kde hrajou hraci"
+stats: "Shows you your own stats"
+vote: "Hlasuj pro zacatek hry"
+teleport: "Teleportuje do areny"
